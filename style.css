@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: black;
+}
+
+.logo {
+    margin: 0 550px;
+    width: 140px;
+}
+
+.container-fluid {
+    background-color: rgb(51, 163, 204);
+    font-size: 22px;
+    color: white;
+    height: 90px;
+}
+
+ul {
+    list-style: none;
+    margin-right: 100px;
+}
+
+ul li {
+    margin: 10px 40px;
+}
+
+footer {
+    background-color: rgb(51, 163, 204);
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.container{
+    max-width: 1100px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    height: 400px ;
+}
+
+.form_inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.submit_btn{
+    margin-bottom: 40px;
+    text-align: center;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: rgb(51, 163, 204);
+}
+.score_list{
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.teams{
+    display: flex;
+    flex-direction: column;
+}
+.teams2{
+    display: flex;
+    flex-direction: column;
+}
+.score_item {
+    display: none;
+}
+textarea{
+    resize: none;
+    overflow: hidden;
+    max-lines: 11;
+}
+.result{
+    display: none;
+}
